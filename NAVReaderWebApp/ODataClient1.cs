@@ -15,13 +15,13 @@ namespace NAVReaderWebApp
     /// There are no comments for NAV in the schema.
     /// </summary>
     [global::Microsoft.OData.Client.OriginalNameAttribute("NAV")]
-    public partial class NAV : global::Microsoft.OData.Client.DataServiceContext
+    public partial class NAVI : global::Microsoft.OData.Client.DataServiceContext
     {
         /// <summary>
         /// Initialize a new NAV object.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.OData.Client.Design.T4", "7.5.1")]
-        public NAV(global::System.Uri serviceRoot) : 
+        public NAVI(global::System.Uri serviceRoot) : 
                 base(serviceRoot, global::Microsoft.OData.Client.ODataProtocolVersion.V4)
         {
             this.ResolveName = new global::System.Func<global::System.Type, string>(this.ResolveNameFromType);
