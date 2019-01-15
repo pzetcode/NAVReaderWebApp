@@ -6,5 +6,7 @@
     <asp:TextBox ID="TextBoxCount" runat="server"></asp:TextBox>
     <br />
     <br />
-    <asp:GridView ID="GridViewCust" runat="server"></asp:GridView>
+    <div class="row">
+        <asp:GridView ID="GridViewCust" runat="server" CssClass="row"></asp:GridView>
+    </div>
 </asp:Content>
