@@ -11,7 +11,7 @@ namespace NAVReaderWebApp.NAV
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            NAVI nav = new NAVI(new Uri("http://localhost:7048/DynamicsNAV100/ODataV4/Company('CRONUS%20CZ%20s.r.o.')"));
+            NAVI nav = new NAVI(new Uri("http://localhost:7048/DynamicsNAV130/ODataV4/Company('CRONUS%20CZ%20s.r.o.')"));
             nav.Credentials = System.Net.CredentialCache.DefaultNetworkCredentials;
 
             var customers = nav.Customer.Select(c => new { c.Name, c.No });
